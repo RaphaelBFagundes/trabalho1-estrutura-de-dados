@@ -1,0 +1,106 @@
+Orientações
+
+• Data de Entrega: 10/10/2025 até as 23h59min
+• Insira o seu Time no Canvas em Pessoas-> ATIV_01 5
+• O Time deverá elaborar o que é pedido e entregar os arquivos via Canvas
+
+Pesquisa:
+
+Este PROJETO irá trabalhar com o conceito de números aleatórios. Pesquise como isso pode ser feito
+em Linguagem C, bibliotecas, ferramentas etc. Pesquise também a necessidade de uma semente na
+geração de números aleatórios e o porquê de usar ou não o relógio do sistema.
+
+Objetivo:
+
+O objetivo deste projeto é aplicar os conceitos estudados de manipulação dinâmica de
+memória, ponteiros e estruturas encadeadas em uma situação prática e próxima do mundo
+real. A ideia é desenvolver um sistema para simular a fila de atendimento de pets em uma
+clínica veterinária.
+
+
+Projeto: Gerenciamento de Atendimento em Clínica Veterinária
+O sistema deverá simular a fila de atendimento de pets em uma clínica. Cada animal que chega
+deve ser registrado e incluído na fila.
+Animais em caso de emergência terão prioridade e devem ser atendidos antes dos demais.
+Portanto este sistema deverá, obrigatoriamente, trabalhar com F I L A S. O Time deverá
+adaptar a biblioteca de Filas fornecida durante o estudo da mesma.
+
+
+As informações necessárias de cada pet serão:
+• ID – código inteiro gerado aleatoriamente entre 100 e 999, NÃO É PERMITIDO ID
+REPETIDO
+• Nome – alfanumérico com no máximo 50 caracteres
+• Espécie– alfanumérico com no máximo 30 caracteres ( cachorro, gato, ave etc.)
+• Idade– inteiro
+• Data de Nascimento – estrutura Data contendo dia, mês e ano inteiros.
+• Prioridade (0 – Emergência, 1- Normal)
+
+
+A T E N Ç Ã O!!!
+O Time deverá trabalhar com duas filas: a de emergência e a de atendimento normal.
+
+O sistema deverá ter as seguintes FUNCIONALIDADES:
+1. Inserir um pet na fila de atendimento.
+O sistema deverá determinar se é um atendimento normal ou de emergência e colocá-lo na
+fila correta . Os dados do pet devem ser preenchidos
+
+2. Atender o Pet
+O pet será removido da fila
+O sistema deverá checar se há pets na fila de emergência para removê-los primeiro.
+Deverá ser impresso os dados do pet e se foi um atendimento de emergência ou não
+
+3. Buscar um pet pelo nome e/ou ID
+Caso encontrado, informar ID, Nome, Espécie, tipo de atendimento, se já foi atendido ou
+não.
+Se a busca encontrar mais de um pet com o mesmo nome, o sistema deverá imprimir todos.
+
+4. Imprimir um Relatório com todos os pets na fila de atendimento tanto de emergência
+quanto normal
+Funcionalidade com a opção de imprimir todos os pets tanto na fila normal quanto na de
+emergência, se existir.
+O relatório deverá ser impresso respeitando o seguinte formato
+ID | Nome | Espécie | Idade | Data de Nascimento | Prioridade.
+
+5. Imprimir o próximo pet a ser atendido.
+As informações a serem impressas serão:
+• Nome
+• Espécie
+• Tipo de atendimento emergência ou normal
+
+6. Imprimir todos os pets que já foram atendidos
+Imprimir todas as informações na ordem de atendimento. O formato da impressão deve ser:
+ID | Nome | Espécie | Idade | Prioridade.
+
+7. Finalizar o sistema
+
+
+Entregas:
+• O Time deverá entregar DOIS Tipos de arquivos:
+• O Relatório deverá ser entre em um Arquivo com extensão pdf, contendo:
+- Capa com Nome e RA dos Alunos em Ordem Alfabética
+- Introdução: Apresentação do Projeto, qual o objetivo do mesmo
+- Desenvolvimento do Projeto: Descrevendo as dificuldades e soluções que o Time
+encontrou durante o desenvolvimento do projeto. Discutir como realizaram a parte
+de randomização e as modificações realizadas na biblioteca Fila
+- Referência Bibliográfica: Se forem de sites colocar a data de acesso
+- O arquivo contendo o Código Fonte, extensão .c, compatível com o CodeBlocks, e
+as bibliotecas construídas
+
+
+Critério de Avaliação
+- Todo o conteúdo pedido deve ser entregue e na forma descrita acima. O desrespeito dessa
+regra acarreta perda de nota
+- O desenvolvimento do projeto será avaliado durante as aulas de laboratório a participação de
+cada integrante do Time será considerada. Essa avaliação corresponde a 45% da nota total do
+trabalho. Os critérios avaliados serão, entre outros
+- Criação das principais estruturas do projeto
+- Geração aleatória do ID
+- Adaptação da Biblioteca Fila
+- Implementação das funcionalidades etc.
+- CASO A PROFESSORA CONSIDERE NECESSÁRIO, o Time apresentará o trabalho. Todos
+os alunos devem estar presentes na apresentação. A falta do aluno acarreta a NÃO
+ATRIBUIÇÃO DE NOTA PARA O MESMO
+- As notas do projeto serão atribuídas de forma comparativa, ou seja, do melhor projeto ao
+pior
+- As notas dentro do Time serão de acordo com o desempenho do aluno durante as aulas de
+laboratório e das arguições
